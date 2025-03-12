@@ -7,6 +7,7 @@ This is a simple front-end e-commerce website built using **HTML, CSS, and JavaS
 ## Features
 
 - 🛒 **Add to Cart**: Users can add items to their shopping cart.
+- 🛒 **Remove Cart Items**: Users can remove items from their shopping cart.
 - 🔢 **Cart Quantity Update**: The total cart quantity updates dynamically in the header.
 - 💾 **Local Storage**: Cart items persist even after refreshing the page.
 - 🔍 **Search Functionality**: Users can search for products dynamically.
@@ -23,7 +24,7 @@ This is a simple front-end e-commerce website built using **HTML, CSS, and JavaS
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/yourusername/ecommerce-project.git
+   git clone https://github.com/ezzydoveyrn/yrn-stores.git
    ```sh
 
 2. Navigate to the project folder:
@@ -54,13 +55,12 @@ This is a simple front-end e-commerce website built using **HTML, CSS, and JavaS
 
 ## Future Improvements
 
-- 🗑 **Remove Items from Cart**
 - 💳 **Checkout System**
 - 🎨 **UI Enhancements (Hover Effects, Animations)**
 
 ## Author
 
-- **Ezekiel**
+- **Ezekiel M. Ogana**
 
 ---
 **Note**: This project currently functions as a front-end demo. Backend features (such as user authentication and payment processing) are not yet implemented.

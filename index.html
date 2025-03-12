@@ -9,8 +9,8 @@
 <body>
 
   <div class="header">
-    <div class="name">NEP</div>
-    <div class="links">
+    <div class="name">SELL with NEPTUNE</div>
+    <nav>
       <div class="link">
         <a href="#">Electronics</a>
         <a href="#">Apple</a>
@@ -19,16 +19,23 @@
         <label for="search" class="searchLabel">Search</label>
       </div>
       <div class="search">
-        <input type="text" name="search" id="search" class="displayNone">
+        <input type="text" name="search" id="search" class="displayNone" placeholder="Search Something...">
       </div>
-    </div>
+    </nav>
     <div class="cart">
-      <a href="#">Cart <sup class="js-cart-quantity">0</sup></a>
-      <div class="crt">
+      <a href="#" class="openClose cartOpen">Cart <sup class="js-cart-quantity">0</sup></a>
+      <div class="crt displayNone">
+        <div class="closeCart">
+          <a class="openCloseCart">X</a>
+        </div>
         <div class="headerCart">
           <h1>CART</h1>
         </div>
         <div class="bodyCart"></div>
+        <div class="footer">
+          <h5>Total(Without Tax): <span class="tWithoutTax"></span></h5>
+          <h4>Total(with Tax): <span class="tWithTax"></span></h4>
+        </div>
       </div>
     </div>
   </div>
